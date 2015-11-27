@@ -3,20 +3,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Rank"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/scoresTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:id="@+id/scoresResult"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/scoresTitle"
+        android:id="@+id/scoresResult" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
-        android:id="@+id/backButton"
+        android:id="@+id/scoresBackButton"
         android:onClick="backMethod"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />

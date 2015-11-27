@@ -2,7 +2,7 @@
     <string name="app_name">Act and React</string>
 
     // StartActivity
-    <string name="appName">Selection Game</string>
+    <string name="appName">Act and React</string>
     <string name="starGame">Play</string>
     <string name="rule">Rules</string>
     <string name="scores">Scores</string>
