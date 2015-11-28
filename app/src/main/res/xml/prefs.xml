@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Game Settings">
+        <SwitchPreference
+            android:key="@string/sound_key"
+            android:title="Sound"
+            android:summary="Turn On/Off Sound"
+            android:defaultValue="@bool/sound_default" />
+
+        <ListPreference
+            android:key="@string/level_key"
+            android:title="Default Level"
+            android:summary="Set default level when get into game"
+            android:entries="@array/level"
+            android:entryValues="@array/level"
+            android:defaultValue="@string/level_default"/>
+
+        <CheckBoxPreference
+            android:id="@+id/delete_data"
+            android:key="@string/delete_data_key"
+            android:title="Delete Score Data"
+            android:summary="Delete all score data in application"
+            android:defaultValue="@bool/delete_data_default"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

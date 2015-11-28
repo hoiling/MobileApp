@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Act and React</string>
+    <string name="backButton">Back</string>
+    <string name="submitButton">Submit</string>
 
     // StartActivity
     <string name="appName">Act and React</string>
@@ -8,7 +10,20 @@
     <string name="scores">Scores</string>
     <string name="setting">Setting</string>
 
-    //ruleActivity
+    // rule Dialog
+    <string name="rule_about">Rule</string>
+    <string name='rule_msg'>Difficulty have easy, medium, hard for player to select. \n\nPlayer have 1 mintue to answer questions.</string>
 
-
+   // settingActivity
+    <string name="sound_key">sound_key</string>
+    <bool name="sound_default">true</bool>
+    <string name="level_key">level_key</string>
+    <string name="level_default">Medium</string>
+    <string-array name="level">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string name="delete_data_key">delete_data_key</string>
+    <bool name="delete_data_default">false</bool>
 </resources>
