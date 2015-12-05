@@ -14,15 +14,18 @@
     <string name="rule_about">Rule</string>
     <string name='rule_msg'>Difficulty have easy, medium, hard for player to select. \n\nPlayer have 1 mintue to answer questions.</string>
 
+    // scoresActivity
+    <string name="scoresTitle">Rank</string>
+
    // settingActivity
     <string name="sound_key">sound_key</string>
     <bool name="sound_default">true</bool>
     <string name="level_key">level_key</string>
-    <string name="level_default">Medium</string>
+    <string name="level_default">Easy</string>
     <string-array name="level">
-        <item>Low</item>
+        <item>Easy</item>
         <item>Medium</item>
-        <item>High</item>
+        <item>Hard</item>
     </string-array>
     <string name="delete_data_key">delete_data_key</string>
     <bool name="delete_data_default">false</bool>

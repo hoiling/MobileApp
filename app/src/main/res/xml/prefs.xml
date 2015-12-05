@@ -14,14 +14,5 @@
             android:entries="@array/level"
             android:entryValues="@array/level"
             android:defaultValue="@string/level_default"/>
-
-        <CheckBoxPreference
-            android:id="@+id/delete_data"
-            android:key="@string/delete_data_key"
-            android:title="Delete Score Data"
-            android:summary="Delete all score data in application"
-            android:defaultValue="@bool/delete_data_default"/>
-
     </PreferenceCategory>
-
 </PreferenceScreen>
